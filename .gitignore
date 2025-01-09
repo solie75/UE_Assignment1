@@ -30,3 +30,36 @@
 *.exe
 *.out
 *.app
+
+# Unreal Engine 기본 설정
+*.log
+*.tmp
+*.ini~
+*.ncb
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vscode
+
+# Binaries, Derived Data Cache, Intermediate 폴더 제외
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 빌드 파일 제외
+*.dll
+*.exe
+*.pdb
+*.obj
+*.o
+*.dylib
+*.app
+
+# 시스템 파일 제외
+.DS_Store
+Thumbs.db
+
+# User-specific settings
+*.user
+*.userprefs
