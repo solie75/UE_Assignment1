@@ -9,3 +9,8 @@
 한번 움직일 때 상하 좌우로 100 만큼 이동 하며 이는 랜덤하게 정해집니다.
 이동할 때 50퍼센트의 확률로 폭발 파티클이 출력됩니다.
 이동할 때마다 현재의 위치와 누적된 이동 거리가 로그창과 viewport 상에 출력됩니다.
+
+1. UE_Assignment1Character.h 에서 Move, Step, CreateEvent 함수 생성 및 Particle 추가.
+2. /Content/BP_Class 폴더에 IA_Teleport, IMC_Player 생성
+3. IA, IMC, Particle 을 UE_Assignment1Character 에 추가 및 바인딩
+4. Edit -> Editor Preferences -> Level Editor -> Play -> Game Gets Mouse Control 활성화 : Editor 상에서 Play 시 클릭없이 바로 viewport에 포커싱싱
